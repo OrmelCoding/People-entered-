@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Condensed&family=Rubik:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', Sans-Serif;
+  text-align: center;
+  color: white;
+}
+body{
+  background-color: #363636;
+  font-size: 20px;
+}
+h1{
+  font-weight: bold;
+  margin: 20px 0px 20px;
+}
+h2{
+  font-size: 50px;
+}
+button{
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color:white;
+  font-weight: bold;
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+#increment-btn{
+  background-color: #740404;
+}
+#save-btn{
+  background-color: #18500c;
+}
+#increment-btn:hover{
+  background-color: #f11b1b;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#save-btn:hover{
+  background-color: #00dc3a;
+  cursor: pointer;
+  transition: 0.3s;
+}
